@@ -65,8 +65,8 @@ export class ColorGameBox extends ObserverComponent {
 
     getMeshLogo() {
         const nodeMesh = {
-            VG: this.meshLogoVG,
-            SG: this.meshLogoSG,
+            VGaming: this.meshLogoVG,
+            Saba: this.meshLogoSG,
         };
         const opAlias = OperatorUtils.getOperatorAlias();
         return nodeMesh.hasOwnProperty(opAlias) ? nodeMesh[opAlias] : this.meshLogoOther;
