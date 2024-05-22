@@ -1,7 +1,9 @@
 import { _decorator } from "cc";
 import gc from "@sg/game-client-base";
-import BaseBetDetailBodyItem from "db://shared-components/game/bet-history/scripts/components/bet-detail/bet-detail-body-item";
-
+import BetDetailLogItem, {
+    BetDetailLogItemType,
+    GameRoundBetDetailsLog,
+} from "db://shared-components/game/bet-history/scripts/components/bet-detail/bet-detail-log-item";
 const { ccclass } = _decorator;
 const { FormatUtils } = gc;
 
@@ -29,21 +31,14 @@ const oddMapper: { [key: number]: string } = {
 const inferableChoices = ["hot", "cold"];
 
 @ccclass
-export default class BetDetailBodyItem extends BaseBetDetailBodyItem {
-    setData(
-        betDetailsLog: gc.BetHistory.BetDetailsLog,
-        index: number,
-        odds: gc.BetHistory.DynamicObject<number>,
-        settlementResult: gc.BetHistory.DynamicObject<boolean>,
-        result: gc.BetHistory.DynamicObject<ColorGameResult>,
-        freeBet: boolean,
-        fractionalOddsFormat: boolean
-    ) {
-        const { amount, choice } = betDetailsLog;
+export default class BetDetailBodyItem extends BetDetailLogItem {
+    setData(data: BetDetailLogItemType) {
+        const { betDetailsLog, odds, fractionalOddsFormat, settlementResult, freeBet, result } = data;
+        const { amount, choice } = betDetailsLog as GameRoundBetDetailsLog & gc.BetHistory.DynamicObject<object>;
         const isWin = settlementResult[choice];
-        super.setData(betDetailsLog, index, odds, settlementResult, result, freeBet, fractionalOddsFormat);
+        super.setData(data);
 
-        const winningOdd = this.getWinningOdd(choice, isWin, result, odds);
+        const winningOdd = this.getWinningOdd(choice, isWin, result as gc.BetHistory.DynamicObject<ColorGameResult>, odds);
         const effectiveOdds = freeBet ? winningOdd - 1 : winningOdd;
         const winningAmount = amount * effectiveOdds;
         this.lblWin.string = FormatUtils.numberWithCommas(winningAmount, 2);

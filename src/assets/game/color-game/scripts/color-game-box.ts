@@ -2,6 +2,7 @@ import gc from "@sg/game-client-base";
 import { Mesh, MeshRenderer, Node, _decorator, tween, v3 } from "cc";
 import Observer from "observer";
 import { ObserverComponent } from "../../../../extensions/shared-components/assets/shared/common-components/observer-component/scripts/observer-component";
+import { OperatorUtils } from "../../../../extensions/shared-components/assets/shared/utils";
 const { Configs } = gc;
 const { ccclass, property } = _decorator;
 const { render } = Observer;
@@ -19,6 +20,9 @@ export class ColorGameBox extends ObserverComponent {
 
     @property(Mesh)
     meshLogoVG: Mesh = null;
+
+    @property(Mesh)
+    meshLogoOther: Mesh = null;
 
     private readonly openEulerAngleZ = -10;
     private readonly closeEulerAngleZ = -90;
@@ -54,7 +58,16 @@ export class ColorGameBox extends ObserverComponent {
     }
 
     @render(Configs.SiteConfigs, (store) => store.systemType)
-    showSystemSlogan(systemType: string) {
-        this.meshRendererLogo.mesh = systemType === Configs.SystemConfigs.VG.name ? this.meshLogoVG : this.meshLogoSG;
+    showSystemSlogan() {
+        this.meshRendererLogo.mesh = this.getMeshLogo();
+    }
+
+    getMeshLogo() {
+        const nodeMesh = {
+            VGaming: this.meshLogoVG,
+            Saba: this.meshLogoSG,
+        };
+        const opAlias = OperatorUtils.getOperatorAlias();
+        return nodeMesh.hasOwnProperty(opAlias) ? nodeMesh[opAlias] : this.meshLogoOther;
     }
 }

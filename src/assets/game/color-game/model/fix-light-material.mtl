@@ -80,7 +80,7 @@
       "roughness": 1,
       "metallic": 0.506,
       "mainTexture": {
-        "__uuid__": "8b542add-cad9-43de-ae49-e7a0cdad8d09@e39f7",
+        "__uuid__": "8b542add-cad9-43de-ae49-e7a0cdad8d09@3effa",
         "__expectedType__": "cc.Texture2D"
       }
     },
