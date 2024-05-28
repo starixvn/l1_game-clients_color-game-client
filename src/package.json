@@ -27,7 +27,7 @@
     },
     "dependencies": {
         "@sg/cocos-integration-testing": "1.6.1",
-        "@sg/game-client-base": "1.55.1-beta.0",
+        "@sg/game-client-base": "1.55.2",
         "inversify": "6.0.1",
         "lodash-es": "^4.17.21",
         "mobx": "6.9.0",
