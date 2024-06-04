@@ -210,7 +210,7 @@ export const languages = {
         "message_error_occurred_place_bet": "An error has occurred, please contact CSD for details.(%{errorCode})",
         "message_game_excluded": "Your account is no longer allowed to play this game. Please try other games",
         "message_get_balance_failed": "Cannot update the account balance.(%{errorCode})",
-        "message_hedge_bet": "Can bet on either %{betChoice1} or %{betChoice2}",
+        "message_hedge_bet": "Can bet on either %{betChoice1} or %{betChoice2}.",
         "message_insufficient_fund": "Your account has insufficient funds. (%{errorCode})",
         "message_invalid_bet_choice": "Invalid Bet Choice",
         "message_invalid_data": "Invalid Data.",
