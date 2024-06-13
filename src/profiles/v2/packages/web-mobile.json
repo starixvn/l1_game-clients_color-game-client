@@ -33,7 +33,48 @@
         "asyncFunctions": true
       },
       "md5Cache": false,
-      "bundleConfigs": []
+      "bundleConfigs": [
+        {
+          "name": "main",
+          "root": "",
+          "output": true
+        },
+        {
+          "name": "internal",
+          "root": "",
+          "output": true
+        },
+        {
+          "name": "start-scene",
+          "root": "",
+          "output": true
+        },
+        {
+          "root": "db://shared-components/game-instant",
+          "name": "game-instant",
+          "output": true
+        },
+        {
+          "root": "db://shared-components/shared/shared-bundle",
+          "name": "shared-bundle",
+          "output": true
+        },
+        {
+          "root": "db://shared-components/shared/shared-instant-bundle",
+          "name": "shared-instant-bundle",
+          "output": true
+        },
+        {
+          "root": "db://assets/game-instant/splash/background-splash-bundle",
+          "name": "background-splash-bundle",
+          "output": true
+        },
+        {
+          "root": "db://assets/resources",
+          "name": "resources",
+          "output": true
+        }
+      ]
     },
     "options": {
       "web-mobile": {
