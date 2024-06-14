@@ -82,4 +82,6 @@ export default class BetDetailBodyItem extends BetDetailLogItem {
             return "";
         }
     }
+
+    parseOddByData(data) {} // game have odds different with choice
 }
