@@ -2249,7 +2249,6 @@
     "__prefab": {
       "__id__": 90
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -2410,7 +2409,6 @@
     "__prefab": {
       "__id__": 98
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -2571,7 +2569,6 @@
     "__prefab": {
       "__id__": 106
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -2732,7 +2729,6 @@
     "__prefab": {
       "__id__": 114
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -2893,7 +2889,6 @@
     "__prefab": {
       "__id__": 122
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -3054,7 +3049,6 @@
     "__prefab": {
       "__id__": 130
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -3215,7 +3209,6 @@
     "__prefab": {
       "__id__": 138
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -3316,7 +3309,6 @@
     "__prefab": {
       "__id__": 146
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -5820,6 +5812,8 @@
     },
     "key": "ColorGame.hot",
     "format": 0,
+    "prefix": "",
+    "suffix": "",
     "_id": ""
   },
   {
@@ -5838,7 +5832,6 @@
     "__prefab": {
       "__id__": 288
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -6135,6 +6128,8 @@
     },
     "key": "ColorGame.cold",
     "format": 0,
+    "prefix": "",
+    "suffix": "",
     "_id": ""
   },
   {
@@ -6153,7 +6148,6 @@
     "__prefab": {
       "__id__": 304
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -6274,6 +6268,7 @@
     "labelContainer": null,
     "supportChoices": "hot,cold",
     "enablePercentage": true,
+    "showSignPercentage": true,
     "_id": ""
   },
   {
@@ -6374,10 +6369,14 @@
     "__prefab": {
       "__id__": 320
     },
-    "bigRoad": {
-      "__id__": 275
+    "scoreboards": [
+      {
+        "__id__": 275
+      }
+    ],
+    "resultPercentage": {
+      "__id__": 311
     },
-    "beadRoad": null,
     "_id": ""
   },
   {
