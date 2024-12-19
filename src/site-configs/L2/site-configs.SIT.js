@@ -12,4 +12,5 @@ window.envConfig = {
     defaultLanguage: "en",
     backgroundNoTranslate: true,
     boostedOddsDelayTimeByMinutes: 2,
+    clientSubDomain: "l2uatclient",
 };
