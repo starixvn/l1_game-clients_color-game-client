@@ -3,6 +3,7 @@ import gc from "@sg/game-client-base";
 declare global {
     interface Window {
         envConfig: gc.Configs.SiteConfigs;
+        crossConfig: gc.Configs.SiteConfigs;
     }
 }
 
@@ -26,6 +27,7 @@ const defaultConfig: gc.Configs.SiteConfigs = {
     mainObserverNamespace: "ColorGame",
     tolgeeUrl: "",
     boostedOddsDelayTimeByMinutes: 2,
+    storagePrefixKey: "ColorGame",
 };
 
 let configDev = {
@@ -47,6 +49,8 @@ if (window.envConfig) {
 }
 
 export const siteConfigs: gc.Configs.SiteConfigs =
-    window.envConfig && window.envConfig.isDev ? defaultConfig : { ...defaultConfig, ...configDev, ...window.envConfig };
+    window.envConfig && window.envConfig.isDev
+        ? defaultConfig
+        : { ...defaultConfig, ...configDev, ...window.envConfig, ...window.crossConfig };
 
 window.envConfig = siteConfigs;
