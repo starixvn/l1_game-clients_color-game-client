@@ -1,27 +1,3 @@
 .splash-container .bg_no_translate {
     background-image: url("./game_background.png?v=1");
 }
-
-.splash-container .splash_game_name_vi {
-    background-image: url("./game_name_vi.png?v=1");
-}
-
-.splash-container .splash_game_name_en {
-    background-image: url("./game_name_en.png?v=1");
-}
-
-.splash-container .splash_game_name_id {
-    background-image: url("./game_name_id.png?v=1");
-}
-
-.splash-container .splash_game_name_th {
-    background-image: url("./game_name_th.png?v=1");
-}
-
-.splash-container .splash_game_name_zh_cn {
-    background-image: url("./game_name_zh_cn.png?v=1");
-}
-
-.splash-container .splash_game_name_zh_tw {
-    background-image: url("./game_name_zh_tw.png?v=1");
-}
