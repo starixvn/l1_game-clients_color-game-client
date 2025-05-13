@@ -959,13 +959,13 @@
             <key>premultiplyAlpha</key>
             <false/>
             <key>realTextureFileName</key>
-            <string>main-altas.png</string>
+            <string>main-altas.webp</string>
             <key>size</key>
             <string>{1024,1024}</string>
             <key>smartupdate</key>
             <string>$TexturePacker:SmartUpdate:2aa6bb294ad166a6507495ca8dcc1e9f:462d1cc249860905ac16cbcbec3a9923:c267e8d10c0bc09dc57664e81b0ef2af$</string>
             <key>textureFileName</key>
-            <string>main-altas.png</string>
+            <string>main-altas.webp</string>
         </dict>
     </dict>
 </plist>

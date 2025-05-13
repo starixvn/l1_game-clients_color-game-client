@@ -63,7 +63,12 @@
           "name": "resources",
           "output": true
         }
-      ]
+      ],
+      "overwriteProjectSettings": {
+        "macroConfig": {
+          "cleanupImageCache": "off"
+        }
+      }
     },
     "options": {
       "web-mobile": {

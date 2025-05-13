@@ -1,5 +1,5 @@
 {
-  "__version__": "1.3.6",
+  "__version__": "1.3.9",
   "log": {
     "level": 2
   },
@@ -89,7 +89,18 @@
             }
           ],
           "bundleCommonChunk": false,
-          "logDest": "project://temp/builder/log/web-mobile4-13-2023 09-39.log"
+          "logDest": "project://temp/builder/log/web-mobile4-13-2023 09-39.log",
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "off"
+            }
+          },
+          "buildMode": "normal"
         },
         "time": "10-26-2023 12:53:07",
         "dirty": false
