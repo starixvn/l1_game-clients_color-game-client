@@ -3,7 +3,7 @@
   "modules": {
     "graphics": {
       "pipeline": "custom-pipeline",
-      "custom-pipeline-post-process": true
+      "custom-pipeline-post-process": false
     },
     "configs": {
       "migrationsConfig": {
@@ -232,6 +232,6 @@
     "ENABLE_WEBGL_ANTIALIAS": false,
     "ENABLE_WEBGL_HIGHP_STRUCT_VALUES": true,
     "BATCHER2D_MEM_INCREMENT": 144,
-    "CUSTOM_PIPELINE_NAME": "Custom"
+    "CUSTOM_PIPELINE_NAME": ""
   }
 }
