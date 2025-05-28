@@ -8,10 +8,11 @@
       "1681353552761": {
         "type": "build",
         "id": "1681353552761",
-        "progress": 0.21111111111111114,
-        "state": "processing",
+        "progress": 1,
+        "state": "success",
         "stage": "build",
-        "message": "Build script start",
+        "message": "5-28-2025 09:30:53 build success in 2 min 28 s!",
+        "detailMessage": "// ---- build task cocos-service：onAfterBuild ----\r",
         "options": {
           "name": "cocos-3x",
           "platform": "web-mobile",
@@ -100,9 +101,20 @@
               "cleanupImageCache": "off"
             }
           },
-          "buildMode": "normal"
+          "buildMode": "normal",
+          "engineModulesConfigKey": "migrationsConfig",
+          "mangleProperties": false,
+          "nativeCodeBundleMode": "both",
+          "inlineEnum": true,
+          "md5CacheOptions": {
+            "excludes": [],
+            "includes": [],
+            "replaceOnly": [],
+            "handleTemplateMd5Link": true
+          },
+          "wasmCompressionMode": false
         },
-        "time": "10-26-2023 12:53:07",
+        "time": "5-28-2025 09:28:25",
         "dirty": false
       }
     }
