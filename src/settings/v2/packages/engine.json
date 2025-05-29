@@ -201,6 +201,7 @@
           "audio",
           "base",
           "custom-pipeline",
+          "custom-pipeline-post-process",
           "debug-renderer",
           "geometry-renderer",
           "gfx-webgl",
