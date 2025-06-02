@@ -326,7 +326,10 @@
     "propertyPath": [
       "_spriteFrame"
     ],
-    "value": null
+    "value": {
+      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@fc848",
+      "__expectedType__": "cc.SpriteFrame"
+    }
   },
   {
     "__type__": "cc.TargetInfo",
@@ -343,7 +346,10 @@
     "propertyPath": [
       "_spriteFrame"
     ],
-    "value": null
+    "value": {
+      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@68f76",
+      "__expectedType__": "cc.SpriteFrame"
+    }
   },
   {
     "__type__": "cc.TargetInfo",
@@ -360,7 +366,10 @@
     "propertyPath": [
       "_spriteFrame"
     ],
-    "value": null
+    "value": {
+      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@68f76",
+      "__expectedType__": "cc.SpriteFrame"
+    }
   },
   {
     "__type__": "cc.TargetInfo",

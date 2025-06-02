@@ -507,7 +507,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -736,7 +735,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -927,6 +925,29 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -1094,21 +1115,30 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 2,
-    "_id": "",
-    "_enableShadow": true,
-    "_shadowBlur": 3,
-    "_shadowOffset": {
-      "__type__": "cc.Vec2",
-      "x": 1,
-      "y": -1
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
     },
+    "_outlineWidth": 2,
+    "_enableShadow": true,
     "_shadowColor": {
       "__type__": "cc.Color",
       "r": 0,
       "g": 0,
       "b": 0,
       "a": 255
-    }
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 1,
+      "y": -1
+    },
+    "_shadowBlur": 3,
+    "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
@@ -1144,7 +1174,6 @@
     "__prefab": {
       "__id__": 46
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -1897,7 +1926,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -2126,7 +2154,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -2297,10 +2324,7 @@
       "b": 255,
       "a": 255
     },
-    "_spriteFrame": {
-      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@2e1d0",
-      "__expectedType__": "cc.SpriteFrame"
-    },
+    "_spriteFrame": null,
     "_type": 0,
     "_fillType": 0,
     "_sizeMode": 2,
@@ -2321,7 +2345,7 @@
     "fileId": "c8w8R53Z5JP4h9aHrkMNCP"
   },
   {
-    "__type__": "a67896fTUBMjqsMU4DLBJx4",
+    "__type__": "bde97ZsJaRDf7RJ+auROTFs",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -2333,17 +2357,16 @@
       "__id__": 98
     },
     "spriteList": [],
-    "atlas": {
-      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc",
-      "__expectedType__": "cc.SpriteAtlas"
-    },
-    "prefix": "text-hot",
-    "defaultLocalized": "en",
+    "usingRawSize": true,
+    "bundleName": "resources",
+    "path": "i18n-images",
+    "frameName": "text-hot",
+    "pathType": 1,
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "66YlzGfIVEabbGD0iy2yfA"
+    "fileId": "87I65DJ/1BHbr2PRfZcPtK"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2481,6 +2504,29 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -2648,21 +2694,30 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 2,
-    "_id": "",
-    "_enableShadow": true,
-    "_shadowBlur": 3,
-    "_shadowOffset": {
-      "__type__": "cc.Vec2",
-      "x": 1,
-      "y": -1
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
     },
+    "_outlineWidth": 2,
+    "_enableShadow": true,
     "_shadowColor": {
       "__type__": "cc.Color",
       "r": 0,
       "g": 0,
       "b": 0,
       "a": 255
-    }
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 1,
+      "y": -1
+    },
+    "_shadowBlur": 3,
+    "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
@@ -2698,7 +2753,6 @@
     "__prefab": {
       "__id__": 116
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -3090,6 +3144,29 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 1,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -3264,6 +3341,16 @@
     "choice": {
       "__id__": 92
     },
+    "lblBetPercentage": null,
+    "enableBoostedOdds": false,
+    "highlightOdds": null,
+    "boostedOddsColor": {
+      "__type__": "cc.Color",
+      "r": 250,
+      "g": 58,
+      "b": 53,
+      "a": 255
+    },
     "_id": ""
   },
   {
@@ -3331,6 +3418,16 @@
       "__id__": 20
     },
     "choice": null,
+    "lblBetPercentage": null,
+    "enableBoostedOdds": false,
+    "highlightOdds": null,
+    "boostedOddsColor": {
+      "__type__": "cc.Color",
+      "r": 250,
+      "g": 58,
+      "b": 53,
+      "a": 255
+    },
     "_id": ""
   },
   {
@@ -3722,7 +3819,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -3951,7 +4047,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -4142,6 +4237,29 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -4309,21 +4427,30 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 2,
-    "_id": "",
-    "_enableShadow": true,
-    "_shadowBlur": 3,
-    "_shadowOffset": {
-      "__type__": "cc.Vec2",
-      "x": 1,
-      "y": -1
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
     },
+    "_outlineWidth": 2,
+    "_enableShadow": true,
     "_shadowColor": {
       "__type__": "cc.Color",
       "r": 0,
       "g": 0,
       "b": 0,
       "a": 255
-    }
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 1,
+      "y": -1
+    },
+    "_shadowBlur": 3,
+    "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
@@ -4359,7 +4486,6 @@
     "__prefab": {
       "__id__": 194
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -4760,6 +4886,16 @@
       "__id__": 168
     },
     "choice": null,
+    "lblBetPercentage": null,
+    "enableBoostedOdds": false,
+    "highlightOdds": null,
+    "boostedOddsColor": {
+      "__type__": "cc.Color",
+      "r": 250,
+      "g": 58,
+      "b": 53,
+      "a": 255
+    },
     "_id": ""
   },
   {
@@ -5151,7 +5287,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -5380,7 +5515,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -5571,6 +5705,29 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -5738,21 +5895,30 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 2,
-    "_id": "",
-    "_enableShadow": true,
-    "_shadowBlur": 3,
-    "_shadowOffset": {
-      "__type__": "cc.Vec2",
-      "x": 1,
-      "y": -1
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
     },
+    "_outlineWidth": 2,
+    "_enableShadow": true,
     "_shadowColor": {
       "__type__": "cc.Color",
       "r": 0,
       "g": 0,
       "b": 0,
       "a": 255
-    }
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 1,
+      "y": -1
+    },
+    "_shadowBlur": 3,
+    "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
@@ -5788,7 +5954,6 @@
     "__prefab": {
       "__id__": 259
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -6189,6 +6354,16 @@
       "__id__": 233
     },
     "choice": null,
+    "lblBetPercentage": null,
+    "enableBoostedOdds": false,
+    "highlightOdds": null,
+    "boostedOddsColor": {
+      "__type__": "cc.Color",
+      "r": 250,
+      "g": 58,
+      "b": 53,
+      "a": 255
+    },
     "_id": ""
   },
   {
@@ -6580,7 +6755,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -6809,7 +6983,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -7000,6 +7173,29 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -7167,21 +7363,30 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 2,
-    "_id": "",
-    "_enableShadow": true,
-    "_shadowBlur": 3,
-    "_shadowOffset": {
-      "__type__": "cc.Vec2",
-      "x": 1,
-      "y": -1
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
     },
+    "_outlineWidth": 2,
+    "_enableShadow": true,
     "_shadowColor": {
       "__type__": "cc.Color",
       "r": 0,
       "g": 0,
       "b": 0,
       "a": 255
-    }
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 1,
+      "y": -1
+    },
+    "_shadowBlur": 3,
+    "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
@@ -7217,7 +7422,6 @@
     "__prefab": {
       "__id__": 324
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -7618,6 +7822,16 @@
       "__id__": 298
     },
     "choice": null,
+    "lblBetPercentage": null,
+    "enableBoostedOdds": false,
+    "highlightOdds": null,
+    "boostedOddsColor": {
+      "__type__": "cc.Color",
+      "r": 250,
+      "g": 58,
+      "b": 53,
+      "a": 255
+    },
     "_id": ""
   },
   {
@@ -8009,7 +8223,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -8238,7 +8451,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -8429,6 +8641,29 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -8596,21 +8831,30 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 2,
-    "_id": "",
-    "_enableShadow": true,
-    "_shadowBlur": 3,
-    "_shadowOffset": {
-      "__type__": "cc.Vec2",
-      "x": 1,
-      "y": -1
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
     },
+    "_outlineWidth": 2,
+    "_enableShadow": true,
     "_shadowColor": {
       "__type__": "cc.Color",
       "r": 0,
       "g": 0,
       "b": 0,
       "a": 255
-    }
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 1,
+      "y": -1
+    },
+    "_shadowBlur": 3,
+    "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
@@ -8646,7 +8890,6 @@
     "__prefab": {
       "__id__": 389
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -9047,6 +9290,16 @@
       "__id__": 363
     },
     "choice": null,
+    "lblBetPercentage": null,
+    "enableBoostedOdds": false,
+    "highlightOdds": null,
+    "boostedOddsColor": {
+      "__type__": "cc.Color",
+      "r": 250,
+      "g": 58,
+      "b": 53,
+      "a": 255
+    },
     "_id": ""
   },
   {
@@ -9438,7 +9691,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -9667,7 +9919,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -9858,6 +10109,29 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -10025,21 +10299,30 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 2,
-    "_id": "",
-    "_enableShadow": true,
-    "_shadowBlur": 3,
-    "_shadowOffset": {
-      "__type__": "cc.Vec2",
-      "x": 1,
-      "y": -1
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
     },
+    "_outlineWidth": 2,
+    "_enableShadow": true,
     "_shadowColor": {
       "__type__": "cc.Color",
       "r": 0,
       "g": 0,
       "b": 0,
       "a": 255
-    }
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 1,
+      "y": -1
+    },
+    "_shadowBlur": 3,
+    "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
@@ -10075,7 +10358,6 @@
     "__prefab": {
       "__id__": 454
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -10476,6 +10758,16 @@
       "__id__": 428
     },
     "choice": null,
+    "lblBetPercentage": null,
+    "enableBoostedOdds": false,
+    "highlightOdds": null,
+    "boostedOddsColor": {
+      "__type__": "cc.Color",
+      "r": 250,
+      "g": 58,
+      "b": 53,
+      "a": 255
+    },
     "_id": ""
   },
   {
@@ -10917,7 +11209,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -11146,7 +11437,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -11317,10 +11607,7 @@
       "b": 255,
       "a": 255
     },
-    "_spriteFrame": {
-      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@b9513",
-      "__expectedType__": "cc.SpriteFrame"
-    },
+    "_spriteFrame": null,
     "_type": 0,
     "_fillType": 0,
     "_sizeMode": 2,
@@ -11341,7 +11628,7 @@
     "fileId": "5exjO556xCUo/0maSwXrob"
   },
   {
-    "__type__": "a67896fTUBMjqsMU4DLBJx4",
+    "__type__": "bde97ZsJaRDf7RJ+auROTFs",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -11353,17 +11640,16 @@
       "__id__": 512
     },
     "spriteList": [],
-    "atlas": {
-      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc",
-      "__expectedType__": "cc.SpriteAtlas"
-    },
-    "prefix": "text-cold",
-    "defaultLocalized": "en",
+    "usingRawSize": true,
+    "bundleName": "resources",
+    "path": "i18n-images",
+    "frameName": "text-cold",
+    "pathType": 1,
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "12mVupUzRADZYNw4shDBzK"
+    "fileId": "27oBdEVXxD2JSJgU3dRBEA"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -11501,6 +11787,29 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 2,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -11662,6 +11971,29 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -11829,21 +12161,30 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 2,
-    "_id": "",
-    "_enableShadow": true,
-    "_shadowBlur": 3,
-    "_shadowOffset": {
-      "__type__": "cc.Vec2",
-      "x": 1,
-      "y": -1
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
     },
+    "_outlineWidth": 2,
+    "_enableShadow": true,
     "_shadowColor": {
       "__type__": "cc.Color",
       "r": 0,
       "g": 0,
       "b": 0,
       "a": 255
-    }
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 1,
+      "y": -1
+    },
+    "_shadowBlur": 3,
+    "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
@@ -11879,7 +12220,6 @@
     "__prefab": {
       "__id__": 538
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -12283,6 +12623,16 @@
     },
     "choice": {
       "__id__": 506
+    },
+    "lblBetPercentage": null,
+    "enableBoostedOdds": false,
+    "highlightOdds": null,
+    "boostedOddsColor": {
+      "__type__": "cc.Color",
+      "r": 250,
+      "g": 58,
+      "b": 53,
+      "a": 255
     },
     "_id": ""
   },

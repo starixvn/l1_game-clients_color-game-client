@@ -2,7 +2,8 @@
   "__version__": "1.0.12",
   "modules": {
     "graphics": {
-      "pipeline": "custom-pipeline"
+      "pipeline": "legacy-pipeline",
+      "custom-pipeline-post-process": true
     },
     "configs": {
       "migrationsConfig": {
@@ -82,7 +83,7 @@
           },
           "physics-2d": {
             "_value": true,
-            "_option": "physics-2d-box2d"
+            "_option": "physics-2d-builtin"
           },
           "physics-2d-box2d": {
             "_value": false
@@ -213,7 +214,7 @@
           "occlusion-query",
           "particle",
           "particle-2d",
-          "physics-2d-box2d",
+          "physics-2d-builtin",
           "physics-cannon",
           "primitive",
           "profiler",
