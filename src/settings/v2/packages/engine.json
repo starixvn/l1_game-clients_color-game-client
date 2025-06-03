@@ -3,7 +3,7 @@
   "modules": {
     "graphics": {
       "pipeline": "custom-pipeline",
-      "custom-pipeline-post-process": true
+      "custom-pipeline-post-process": false
     },
     "configs": {
       "migrationsConfig": {
