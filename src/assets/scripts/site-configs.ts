@@ -24,7 +24,6 @@ const defaultConfig: gc.Configs.SiteConfigs = {
         proxyPath: "colorgame",
         route: "colorgame",
     },
-    mainObserverNamespace: "ColorGame",
     tolgeeUrl: "",
     boostedOddsDelayTimeByMinutes: 2,
     storagePrefixKey: "ColorGame",
