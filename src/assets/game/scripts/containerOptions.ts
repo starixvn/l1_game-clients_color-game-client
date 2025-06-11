@@ -1,4 +1,4 @@
-import gc from "@sg/game-client-base/dist/exports";
+import gc from "@sg/game-client-base";
 import { LogStore } from "db://shared-components/game/scripts/stores/log-store";
 import { sharedContainer } from "../../scripts/shared-container";
 import { settings } from "./game-settings";
