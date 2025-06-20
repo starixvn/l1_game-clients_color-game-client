@@ -178,7 +178,7 @@
     "_id": "e1daz+DrNKVZrLe8qpWbAK"
   },
   {
-    "__type__": "cc.Fxaa",
+    "__type__": "cc.FXAA",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},

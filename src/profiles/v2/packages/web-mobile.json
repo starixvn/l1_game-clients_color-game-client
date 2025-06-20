@@ -33,7 +33,12 @@
         "asyncFunctions": true
       },
       "md5Cache": false,
-      "bundleConfigs": []
+      "bundleConfigs": [],
+      "overwriteProjectSettings": {
+        "macroConfig": {
+          "cleanupImageCache": "off"
+        }
+      }
     },
     "options": {
       "web-mobile": {

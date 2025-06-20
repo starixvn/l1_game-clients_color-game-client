@@ -1,5 +1,5 @@
 {
-  "__version__": "1.0.5",
+  "__version__": "1.0.6",
   "general": {
     "designResolution": {
       "width": 812,
@@ -34,5 +34,8 @@
       "name": "UI_2D_BELOW_3D",
       "value": 524288
     }
-  ]
+  ],
+  "script": {
+    "preserveSymlinks": true
+  }
 }

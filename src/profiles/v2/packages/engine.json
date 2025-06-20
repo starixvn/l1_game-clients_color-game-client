@@ -1,16 +1,3 @@
 {
-  "__version__": "1.0.7",
-  "builder": {
-    "taskOptionsMap": {
-      "1681353552761": {
-        "cleanupImageCache": "off"
-      }
-    },
-    "__version__": "1.3.6",
-    "options": {
-      "web-mobile": {
-        "cleanupImageCache": "off"
-      }
-    }
-  }
+  "__version__": "1.0.12"
 }
