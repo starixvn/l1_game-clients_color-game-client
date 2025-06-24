@@ -539,13 +539,13 @@
             <key>premultiplyAlpha</key>
             <false/>
             <key>realTextureFileName</key>
-            <string>instant-main-altas.png</string>
+            <string>instant-main-altas.webp</string>
             <key>size</key>
             <string>{512,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:00766712b21bc05b1a6212474808ac88:ab6495965c83655d208bbe792f582e50:964059e5c905f6861aa079259705ccc9$</string>
+            <string>$TexturePacker:SmartUpdate:63ee3179d2f2941680523a83672d3b3e:ab6495965c83655d208bbe792f582e50:6aaaf7db25f0214f3af52d074522fa7f$</string>
             <key>textureFileName</key>
-            <string>instant-main-altas.png</string>
+            <string>instant-main-altas.webp</string>
         </dict>
     </dict>
 </plist>

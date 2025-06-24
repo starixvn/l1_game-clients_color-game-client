@@ -61,11 +61,11 @@
             "_value": true
           },
           "physics": {
-            "_value": false,
-            "_option": "physics-cannon"
+            "_value": true,
+            "_option": "physics-ammo"
           },
           "physics-ammo": {
-            "_value": false,
+            "_value": true,
             "_flags": {
               "LOAD_BULLET_MANUALLY": false
             }
@@ -209,6 +209,7 @@
           "particle",
           "particle-2d",
           "physics-2d-builtin",
+          "physics-ammo",
           "primitive",
           "profiler",
           "rich-text",

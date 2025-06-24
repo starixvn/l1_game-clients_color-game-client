@@ -588,7 +588,7 @@
     "propertyPath": [
       "_active"
     ],
-    "value": true
+    "value": false
   },
   {
     "__type__": "cc.Node",
@@ -1663,6 +1663,7 @@
       "__id__": 0
     },
     "fileId": "b1ZX4O1EVFmaTE1YoA+6p5",
+    "instance": null,
     "targetOverrides": [
       {
         "__id__": 101
