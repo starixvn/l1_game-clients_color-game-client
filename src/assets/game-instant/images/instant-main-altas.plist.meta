@@ -1578,7 +1578,6 @@
       "id": "4de33",
       "name": "x3-label",
       "userData": {
-        "trimType": "auto",
         "trimThreshold": 1,
         "rotated": false,
         "offsetX": 0,
@@ -1608,7 +1607,8 @@
         },
         "isUuid": true,
         "imageUuidOrDatabaseUri": "2cb1b396-1e8d-4cb2-ab7b-f417b965355a@6c48a",
-        "atlasUuid": "62dba303-8fb5-427b-bd8e-5cab8dbf20de"
+        "atlasUuid": "62dba303-8fb5-427b-bd8e-5cab8dbf20de",
+        "trimType": "auto"
       },
       "ver": "1.0.12",
       "imported": true,

@@ -5,6 +5,7 @@ import { sharedContainer } from "../../scripts/shared-container";
 export const settings = {
     id: 71,
     name: "ColorGame",
+    observerNamespace: "ColorGame",
     durations: {
         wholeRound: 41,
         lockingBet: 3,

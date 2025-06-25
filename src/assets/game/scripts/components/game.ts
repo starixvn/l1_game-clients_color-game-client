@@ -17,7 +17,7 @@ import { ColorGameWinningResult } from "./winning-result";
 
 const { Rounds, Translator } = gc;
 
-startGame(settings.name, containerOptions, siteConfigs);
+startGame(settings.observerNamespace, containerOptions, siteConfigs);
 
 const { ccclass, property } = _decorator;
 const { observer, render, handle } = Observer;
