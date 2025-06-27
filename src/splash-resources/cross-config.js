@@ -1,0 +1,3 @@
+window.crossConfig = {
+    splashPath: "instant",
+ };
