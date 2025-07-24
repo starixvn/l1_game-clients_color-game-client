@@ -5,7 +5,9 @@
         "th": "เกมสี",
         "vi": "XÍ NGẦU LỤC SẮC",
         "zh_cn": "色彩游戏",
-        "zh_tw": "色彩遊戲"
+        "zh_tw": "色彩遊戲",
+        "ja": "カラーゲーム",
+        "es": "Juego de Colores"
     },
     "gameNames": {
         "en": "Color Game",
@@ -13,6 +15,8 @@
         "th": "เกมสี",
         "vi": "Xí Ngầu Lục Sắc",
         "zh_cn": "色彩游戏",
-        "zh_tw": "色彩遊戲"
+        "zh_tw": "色彩遊戲",
+        "ja": "カラーゲーム",
+        "es": "Juego de Colores"
     }
 }
