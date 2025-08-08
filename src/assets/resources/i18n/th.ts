@@ -50,7 +50,7 @@ export const languages = {
         "invalid_bet": "เดิมพันไม่ถูกต้อง",
         "invalid_bonus": "โบนัสเกมไม่ถูกต้อง",
         "invalid_deal_hands": "จำนวนมือไม่ถูกต้อง",
-        "invalid_free_spin": "การหมุนฟรีสปินไม่ถูกต้อง",
+        "invalid_free_spin": "การหมุน Free Spin ไม่ถูกต้อง",
         "invalid_hand_id": "ลายนิ้วมือไม่ถูกต้อง",
         "invalid_jackpot": "เกม Jackpot ไม่ถูกต้อง",
         "invalid_payline": "เพย์ไลน์ไม่ถูกต้อง",

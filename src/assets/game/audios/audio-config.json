@@ -2,6 +2,9 @@
     "blue_en": {
         "bundle": "resources"
     },
+    "blue_es": {
+        "bundle": "resources"
+    },
     "blue_vi": {
         "bundle": "resources"
     },
@@ -21,6 +24,9 @@
         "bundle": "resources"
     },
     "green_en": {
+        "bundle": "resources"
+    },
+    "green_es": {
         "bundle": "resources"
     },
     "green_vi": {
@@ -44,6 +50,9 @@
     "pink_en": {
         "bundle": "resources"
     },
+    "pink_es": {
+        "bundle": "resources"
+    },
     "pink_vi": {
         "bundle": "resources"
     },
@@ -63,6 +72,9 @@
         "bundle": "resources"
     },
     "red_en": {
+        "bundle": "resources"
+    },
+    "red_es": {
         "bundle": "resources"
     },
     "red_vi": {
@@ -86,6 +98,9 @@
     "white_en": {
         "bundle": "resources"
     },
+    "white_es": {
+        "bundle": "resources"
+    },
     "white_vi": {
         "bundle": "resources"
     },
@@ -105,6 +120,9 @@
         "bundle": "resources"
     },
     "yellow_en": {
+        "bundle": "resources"
+    },
+    "yellow_es": {
         "bundle": "resources"
     },
     "yellow_vi": {
