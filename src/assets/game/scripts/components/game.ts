@@ -3,7 +3,7 @@ import { Label, Node, _decorator } from "cc";
 import { AudioUtils } from "db://shared-components/game/audios/utils";
 import GameComponent from "db://shared-components/game/scripts/components/game-component";
 import { startGame } from "db://shared-components/shared/scripts/startup";
-import { AnimationUtils, FunctionUtils } from "db://shared-components/shared/utils";
+import { AnimationUtils } from "db://shared-components/shared/utils";
 import Observer from "observer";
 import { siteConfigs } from "../../../scripts/site-configs";
 import { ColorGame } from "../../color-game/scripts/color-game";
@@ -176,7 +176,7 @@ export default class Game extends GameComponent {
     async playSequentialSounds() {
         for (const resultSoundInfo of this.resultsSoundInfo) {
             this.playSound(resultSoundInfo.soundId);
-            await FunctionUtils.delay(resultSoundInfo.duration * 1000);
+            await AnimationUtils.delayTime(resultSoundInfo.duration);
         }
     }
 
