@@ -17,6 +17,12 @@
     "blue_zh_tw": {
         "bundle": "resources"
     },
+    "blue_ja": {
+        "bundle": "resources"
+    },
+    "blue_es": {
+        "bundle": "resources"
+    },
     "green_en": {
         "bundle": "resources"
     },
@@ -33,6 +39,12 @@
         "bundle": "resources"
     },
     "green_zh_tw": {
+        "bundle": "resources"
+    },
+    "green_ja": {
+        "bundle": "resources"
+    },
+    "green_es": {
         "bundle": "resources"
     },
     "pink_en": {
@@ -53,6 +65,12 @@
     "pink_zh_tw": {
         "bundle": "resources"
     },
+    "pink_ja": {
+        "bundle": "resources"
+    },
+    "pink_es": {
+        "bundle": "resources"
+    },
     "red_en": {
         "bundle": "resources"
     },
@@ -69,6 +87,12 @@
         "bundle": "resources"
     },
     "red_zh_tw": {
+        "bundle": "resources"
+    },
+    "red_ja": {
+        "bundle": "resources"
+    },
+    "red_es": {
         "bundle": "resources"
     },
     "white_en": {
@@ -89,6 +113,12 @@
     "white_zh_tw": {
         "bundle": "resources"
     },
+    "white_ja": {
+        "bundle": "resources"
+    },
+    "white_es": {
+        "bundle": "resources"
+    },
     "yellow_en": {
         "bundle": "resources"
     },
@@ -105,6 +135,12 @@
         "bundle": "resources"
     },
     "yellow_zh_tw": {
+        "bundle": "resources"
+    },
+    "yellow_ja": {
+        "bundle": "resources"
+    },
+    "yellow_es": {
         "bundle": "resources"
     },
     "dice_drop": {
