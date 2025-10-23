@@ -2,8 +2,7 @@
   "__version__": "1.0.12",
   "modules": {
     "graphics": {
-      "pipeline": "custom-pipeline",
-      "custom-pipeline-post-process": false
+      "pipeline": "custom-pipeline"
     },
     "configs": {
       "migrationsConfig": {
@@ -24,7 +23,7 @@
             "_value": true
           },
           "skeletal-animation": {
-            "_value": false
+            "_value": true
           },
           "3d": {
             "_value": true
@@ -48,7 +47,7 @@
             "_value": true
           },
           "ui-skew": {
-            "_value": false
+            "_value": true
           },
           "affine-transform": {
             "_value": true
@@ -83,7 +82,7 @@
           },
           "physics-2d": {
             "_value": true,
-            "_option": "physics-2d-builtin"
+            "_option": "physics-2d-box2d"
           },
           "physics-2d-box2d": {
             "_value": false
@@ -125,7 +124,7 @@
             "_value": true
           },
           "video": {
-            "_value": false
+            "_value": true
           },
           "webview": {
             "_value": true
@@ -146,7 +145,7 @@
             "_value": true
           },
           "tiled-map": {
-            "_value": false
+            "_value": true
           },
           "vendor-google": {
             "_value": false
@@ -177,11 +176,11 @@
             "_value": false
           },
           "custom-pipeline-post-process": {
-            "_value": true
+            "_value": false
           },
           "render-pipeline": {
             "_value": true,
-            "_option": "custom-pipeline"
+            "_option": "legacy-pipeline"
           },
           "custom-pipeline": {
             "_value": true
@@ -201,28 +200,31 @@
           "animation",
           "audio",
           "base",
-          "custom-pipeline",
-          "custom-pipeline-post-process",
           "debug-renderer",
           "geometry-renderer",
           "gfx-webgl",
           "graphics",
           "intersection-2d",
+          "legacy-pipeline",
           "light-probe",
           "mask",
           "meshopt",
           "occlusion-query",
           "particle",
           "particle-2d",
-          "physics-2d-builtin",
+          "physics-2d-box2d",
           "physics-cannon",
           "primitive",
           "profiler",
           "rich-text",
+          "skeletal-animation",
           "spine-3.8",
           "terrain",
+          "tiled-map",
           "tween",
           "ui",
+          "ui-skew",
+          "video",
           "websocket",
           "webview"
         ],
@@ -239,7 +241,6 @@
     "ENABLE_TILEDMAP_CULLING": false,
     "ENABLE_WEBGL_ANTIALIAS": false,
     "ENABLE_WEBGL_HIGHP_STRUCT_VALUES": true,
-    "BATCHER2D_MEM_INCREMENT": 144,
-    "CUSTOM_PIPELINE_NAME": ""
+    "BATCHER2D_MEM_INCREMENT": 144
   }
 }
